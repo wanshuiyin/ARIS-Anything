@@ -13,6 +13,25 @@
 
 ---
 
+## 🏆 Why this isn't vaporware
+
+ARIS-Anything is an exploration, not a from-scratch venture. The methodology is **already battle-tested at scale**:
+
+[![Stars](https://img.shields.io/github/stars/wanshuiyin/Auto-claude-code-research-in-sleep?style=flat&logo=github&logoColor=white&color=gold&label=Stars)](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/stargazers) · [![arXiv](https://img.shields.io/badge/arXiv-2605.03042-b31b1b?style=flat&logo=arxiv)](https://huggingface.co/papers/2605.03042) · [![HF Daily #1](https://img.shields.io/badge/HF%20Daily%20Papers-%231-yellow?style=flat)](https://huggingface.co/papers/2605.03042) · [![PaperWeekly](https://img.shields.io/badge/Featured%20on-PaperWeekly-red?style=flat)](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) · [![awesome-agent-skills](https://img.shields.io/badge/Featured%20in-awesome--agent--skills-blue?style=flat&logo=github)](https://github.com/VoltAgent/awesome-agent-skills) · [![Project of the Day](https://img.shields.io/badge/AI%20Digital%20Crew-Project%20of%20the%20Day-orange?style=flat)](https://aidigitalcrew.com)
+
+- ⭐ **~10k GitHub stars** on the [main ARIS repo](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) — top-trending AI research agent
+- 🥇 **HuggingFace Daily Papers #1** — [arXiv:2605.03042](https://huggingface.co/papers/2605.03042) top of the day
+- 🏆 **AI Digital Crew · Project of the Day** (2026-03-14)
+- 📰 **Featured on PaperWeekly** + [awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills)
+- 🛠 **74+ research skills** spanning idea exploration → experiments → papers → rebuttals → talks
+- 🌐 **7+ platforms supported** — Claude Code · Codex CLI · Cursor · Trae · Antigravity · GitHub Copilot CLI · OpenClaw
+- 🔧 **ARIS-Code standalone CLI** — multi-provider runtime, no Claude Code dependency required
+- 📚 **First downstream sibling already shipped**: [**ARIS-in-AI-Offer**](https://github.com/wanshuiyin/ARIS-in-AI-Offer) — 23 bilingual interview cheat sheets, auto-generated end-to-end via the same workflow. Proof that ARIS's loop carries beyond science papers.
+
+ARIS-Anything is the next reach: take the proven loop, point it at non-academic structured inquiry. Everything below is grounded in what already works — not a wishlist.
+
+---
+
 ## 🌟 The Premise
 
 [**ARIS — Auto Research in Sleep**](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) was built for academic research: find ideas → run experiments → write papers → handle rebuttals. But the underlying loop is general:
@@ -79,13 +98,26 @@ Early focus areas being prototyped:
 
 ---
 
+## 🚀 Incoming siblings
+
+The "Anything" exploration runs in parallel with several domain-specific repos under early development. Each one re-uses the ARIS core loop with a domain-appropriate deliverable shape — same five-step inquiry, different cover sheet:
+
+| Repo | Domain | Key idea |
+|---|---|---|
+| 🎬 **ARIS-Movie** | Long-form video generation | Persistent **movie wiki** as the durable narrative state → adversarial cross-model review on plot continuity / character arc / scene consistency → video generated conditioned on wiki state. Same loop as `/paper-writing` + `/research-wiki`, but the deliverable is a video instead of a paper. |
+| 📐 **ARIS-PRD** | Product requirements | Auto-draft PRDs with cross-model adversarial review on user-story coverage, success metrics, edge-case completeness, and tradeoff explicitness. PM-as-executor + PM-as-reviewer (different model families) loop. |
+| 🎨 **ARIS-Design** | Design (UX · brand · visual) | Cross-model adversarial critique on design briefs, mood boards, and iteration cycles. Persistent design-system wiki anchors choices to constraints; reviewer model challenges every decision against the brief. |
+
+These are **scheduled rather than promised** — code drops in this repo and the matching `wanshuiyin/ARIS-*` repos when ready. If one of these domains is your day job, [open an issue](https://github.com/wanshuiyin/ARIS-Anything/issues/new) — you can shape the API.
+
+---
+
 ## 🔗 Related repos
 
 | Repo | What |
 |---|---|
 | [**Auto-claude-code-research-in-sleep**](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | ARIS main repo — 74+ research skills, the academic-research workflow |
-| [**ARIS-in-AI-Offer**](https://github.com/wanshuiyin/ARIS-in-AI-Offer) | 秋招 / AI campus-recruiting cheat sheet collection, generated via ARIS |
-| [**Oh-My-ARIS**](https://github.com/wanshuiyin/Oh-My-ARIS) | Community research platform |
+| [**ARIS-in-AI-Offer**](https://github.com/wanshuiyin/ARIS-in-AI-Offer) | 秋招 / AI campus-recruiting cheat sheet collection (23 bilingual cheat sheets), generated via ARIS — proof the loop generalizes |
 | **ARIS-Anything** *(this repo)* | Generalizing ARIS beyond 科研 → any structured 研究 |
 
 ---

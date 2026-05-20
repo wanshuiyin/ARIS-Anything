@@ -12,6 +12,25 @@
 
 ---
 
+## 🏆 为什么这不是空中楼阁
+
+ARIS-Anything 是一次推广，不是从 0 起跳。底层方法论**已经在大规模上验证过了**：
+
+[![Stars](https://img.shields.io/github/stars/wanshuiyin/Auto-claude-code-research-in-sleep?style=flat&logo=github&logoColor=white&color=gold&label=Stars)](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep/stargazers) · [![arXiv](https://img.shields.io/badge/arXiv-2605.03042-b31b1b?style=flat&logo=arxiv)](https://huggingface.co/papers/2605.03042) · [![HF Daily #1](https://img.shields.io/badge/HF%20Daily%20Papers-%231-yellow?style=flat)](https://huggingface.co/papers/2605.03042) · [![PaperWeekly](https://img.shields.io/badge/Featured%20on-PaperWeekly-red?style=flat)](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) · [![awesome-agent-skills](https://img.shields.io/badge/Featured%20in-awesome--agent--skills-blue?style=flat&logo=github)](https://github.com/VoltAgent/awesome-agent-skills) · [![Project of the Day](https://img.shields.io/badge/AI%20Digital%20Crew-Project%20of%20the%20Day-orange?style=flat)](https://aidigitalcrew.com)
+
+- ⭐ **~10k GitHub stars**，[ARIS 主仓](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep)长期 top-trending AI research agent
+- 🥇 **HuggingFace Daily Papers #1** —— [arXiv:2605.03042](https://huggingface.co/papers/2605.03042) 当日榜首
+- 🏆 **AI Digital Crew · Project of the Day**（2026-03-14）
+- 📰 **PaperWeekly 专题报道** + [awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) 收录
+- 🛠 **74+ 个研究 skill** —— 从找 idea → 跑实验 → 写论文 → rebuttal → 做 talk 的全流程
+- 🌐 **7+ 平台支持** —— Claude Code · Codex CLI · Cursor · Trae · Antigravity · GitHub Copilot CLI · OpenClaw
+- 🔧 **ARIS-Code 独立 CLI** —— 多 provider runtime，不绑定 Claude Code
+- 📚 **第一个 downstream 仓库已经发了**：[**ARIS-in-AI-Offer**](https://github.com/wanshuiyin/ARIS-in-AI-Offer) —— 23 篇双语面试 cheat sheet，全部用 ARIS workflow 端到端自动生成。证明 ARIS 的 loop 能跳出 science paper
+
+ARIS-Anything 是下一步 —— 把已经跑通的 loop 推广到非学术的结构化探究。下面所有的内容都建立在已经 work 的基础上，**不是 wishlist**。
+
+---
+
 ## 🌟 思路
 
 [**ARIS — Auto Research in Sleep**](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) 原本是为学术科研设计的：找 idea → 跑实验 → 写论文 → 处理 rebuttal。但底层 loop 是通用的：
@@ -76,13 +95,26 @@
 
 ---
 
+## 🚀 在路上的姊妹仓库
+
+"Anything" 的探索同时并行几个 domain-specific 仓库，每个都复用同一个 ARIS 五步 loop，只是换了 deliverable 形态：
+
+| 仓库 | 领域 | 核心 idea |
+|---|---|---|
+| 🎬 **ARIS-Movie** | 长视频生成 | 持久 **movie wiki** 当 narrative 状态 → 跨模型对抗审查 plot 连续性 / 人物弧线 / 场景一致性 → 视频条件 wiki state 生成。同一个 `/paper-writing` + `/research-wiki` loop，deliverable 从论文换成视频 |
+| 📐 **ARIS-PRD** | 产品需求文档 | 自动起草 PRD，跨模型对抗审查 user story 覆盖度、成功指标、edge case 完备性、tradeoff 显式度。PM-as-executor + PM-as-reviewer（不同模型家族）loop |
+| 🎨 **ARIS-Design** | 设计（UX · brand · 视觉） | 跨模型对抗式评审设计 brief、mood board、迭代周期。持久 design-system wiki 把每个决策锚到约束上；reviewer model 拿着 brief 挑战每一个设计选择 |
+
+**计划项不等于承诺** —— 等代码 ready 了会在这个仓库和对应的 `wanshuiyin/ARIS-*` 仓库发出来。如果这些领域是你的日常工作，[来 issue 讨论](https://github.com/wanshuiyin/ARIS-Anything/issues/new) —— 你可以参与定义 API。
+
+---
+
 ## 🔗 相关仓库
 
 | 仓库 | 内容 |
 |---|---|
 | [**Auto-claude-code-research-in-sleep**](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | ARIS 主仓 —— 74+ 科研 skill，完整学术 workflow |
-| [**ARIS-in-AI-Offer**](https://github.com/wanshuiyin/ARIS-in-AI-Offer) | 秋招 / AI campus-recruiting cheat sheet 合集，由 ARIS 生成 |
-| [**Oh-My-ARIS**](https://github.com/wanshuiyin/Oh-My-ARIS) | 社区研究平台 |
+| [**ARIS-in-AI-Offer**](https://github.com/wanshuiyin/ARIS-in-AI-Offer) | 秋招 / AI campus-recruiting cheat sheet 合集（23 篇双语），由 ARIS 生成 —— loop 通用性的存在性证明 |
 | **ARIS-Anything** *(本仓)* | 把 ARIS 从科研推广到任何研究 |
 
 ---
