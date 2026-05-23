@@ -23,10 +23,10 @@ ARIS-Anything is an exploration, not a from-scratch venture. The methodology is 
 - 🥇 **HuggingFace Daily Papers #1** — [arXiv:2605.03042](https://huggingface.co/papers/2605.03042) top of the day
 - 🏆 **AI Digital Crew · Project of the Day** (2026-03-14)
 - 📰 **Featured on PaperWeekly** + [awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills)
-- 🛠 **74+ research skills** spanning idea exploration → experiments → papers → rebuttals → talks
+- 🛠 **75+ research skills** spanning idea exploration → experiments → papers → rebuttals → talks
 - 🌐 **7+ platforms supported** — Claude Code · Codex CLI · Cursor · Trae · Antigravity · GitHub Copilot CLI · OpenClaw
 - 🔧 **ARIS-Code standalone CLI** — multi-provider runtime, no Claude Code dependency required
-- 📚 **First downstream sibling already shipped**: [**ARIS-in-AI-Offer**](https://github.com/wanshuiyin/ARIS-in-AI-Offer) — 23 bilingual interview cheat sheets, auto-generated end-to-end via the same workflow. Proof that ARIS's loop carries beyond science papers.
+- 📚 **First downstream repo already shipped two artifacts**: [**ARIS-in-AI-Offer**](https://github.com/wanshuiyin/ARIS-in-AI-Offer) bundles two production deliverables on the same `/render-html` workflow — (1) 23 bilingual interview cheat sheets (the original), and (2) [**ARIS-Homepage v1**](https://wanshuiyin.github.io/) (`/homepage-generator` skill: CV → fact-checked single-file academic homepage; DBLP/arXiv hard-audit on venue/year/author mismatches and fabricated awards). Two completely different deliverables, one workflow — proof the ARIS pattern carries beyond science papers.
 
 ARIS-Anything is the next reach: take the proven loop, point it at non-academic structured inquiry. Everything below is grounded in what already works — not a wishlist.
 
@@ -72,11 +72,12 @@ Same loop, different cover sheet:
 | 🏥 **Medical / clinical literature** | Systematic review, treatment comparison, dose-response synthesis | `/research-lit`, `/idea-creator`, `/result-to-claim` |
 | 📊 **Market / product research** | User studies, competitive analysis, positioning narrative | `/idea-creator`, `/research-wiki`, `/paper-write` |
 | 🎓 **Self-directed learning** | Long-horizon study plans, mastery tracking | `/research-wiki`, `/interview-cheatsheet`, `/render-html` |
+| 🌐 **Academic homepages / recruiting portfolios** ✅ shipped | CV → fact-checked single-file site with paper bib + advisor + dates + awards; reject hallucinations before publish | [`/homepage-generator`](https://github.com/wanshuiyin/ARIS-in-AI-Offer/blob/main/skills/homepage-generator/SKILL.md) (ARIS-Homepage v1, in AI-Offer) — DBLP/arXiv hard-audit |
 | 🔍 **Investigation / journalism** | Source verification, narrative construction, claim auditing | `/citation-audit`, `/paper-claim-audit`, `/kill-argument` |
 | 🛠 **Engineering post-mortems** | Root-cause analysis, incident timeline, action items | `/research-review`, `/proof-checker` (for argument), `/auto-review-loop` |
 | 📚 **Personal knowledge management** | Bridging notes, second-brain workflows | `/research-wiki`, `/render-html` |
 
-The 74+ skills in [ARIS](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) — `/research-lit`, `/idea-creator`, `/proof-checker`, `/research-wiki`, `/peer-review`, `/citation-audit`, `/kill-argument`, ... — were built for science, but **most of the structural moves generalize**. This repo is where we collect the adaptations.
+The 75+ skills in [ARIS](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) — `/research-lit`, `/idea-creator`, `/proof-checker`, `/research-wiki`, `/peer-review`, `/citation-audit`, `/kill-argument`, ... — were built for science, but **most of the structural moves generalize**. This repo is where we collect the adaptations.
 
 ---
 
@@ -117,8 +118,8 @@ Early focus areas being prototyped:
 
 | Repo | What |
 |---|---|
-| [**Auto-claude-code-research-in-sleep**](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | ARIS main repo — 74+ research skills, the academic-research workflow |
-| [**ARIS-in-AI-Offer**](https://github.com/wanshuiyin/ARIS-in-AI-Offer) | 秋招 / AI campus-recruiting cheat sheet collection (23 bilingual cheat sheets), generated via ARIS — proof the loop generalizes |
+| [**Auto-claude-code-research-in-sleep**](https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep) | ARIS main repo — 75+ research skills, the academic-research workflow |
+| [**ARIS-in-AI-Offer**](https://github.com/wanshuiyin/ARIS-in-AI-Offer) | 秋招 / AI campus-recruiting cheat sheets (23 bilingual) + [**ARIS-Homepage v1**](https://wanshuiyin.github.io/) (CV → fact-checked single-file academic homepage) — proof the loop generalizes |
 | **ARIS-Anything** *(this repo)* | Generalizing ARIS beyond 科研 → any structured 研究 |
 
 ---
